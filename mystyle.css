@@ -1,0 +1,40 @@
+body {
+	background-color: #c2c2a3;
+	
+}
+
+h1 {
+	color:maroon;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	text-shadow: 1px 1px black;
+	
+}
+
+p {
+	color: maroon;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: .5px .5px white;
+}
+
+span {
+	color: maroon;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: .5px .5px white;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form-rsvp {
+	text-align: center;
+}
+
+
+.submit input[type="submit"]:hover {
+	color: #000;
+	background-color: Red;
+	box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);

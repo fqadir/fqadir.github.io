@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Final Pizza Drill</title>
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+		<meta content="width=device-width,initial-scale=1.0" name="viewport">
+		
+		<link rel="stylesheet" href="pizzastyle.css">
+	</head>
+	<body>
+		<div id="menuBG">
+			<h1 style="margin:0 0px 0 20px;">Fa'rizzas</h1>
+			
+				
+	<h2>Welcome to our online Pizza portal.  Please make a selection below!</h2>
+			<form id="frmMenu">
+				<div class="menu left">
+					<h3>Size:</h3>
+					<input class="size" type="radio" name="Size" value="Personal Pizza"> Personal Pizza (For 1)<br>
+					<input class="size" type="radio" name="Size" value="Medium Pizza"> Medium Pizza (For 2) <br>
+					<input class="size" type="radio" name="Size" value="Large Pizza" checked> Large Pizza (For "you")<br>
+					<input class="size" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza (For four)<br>
+				</div>
+				<div class="menu right">
+					<h3>Pizza's:</h3>
+					<input class="Pizza's" type="checkbox" name="Pizza's" value="Supreme"> Supreme<br>
+					<input class="Pizza's" type="checkbox" name="Pizza's" value="Sausage"> Sausage <br>
+					<input class="Pizza's" type="checkbox" name="Pizza's" value="Alfredo-Garlic"> Alfredo-Garlic<br> 
+					<input class="Pizza's" type="checkbox" name="Pizza's" value="Plain Pepperoni"> Pepperoni<br>
+					<input class="Pizza's" type="checkbox" name="Pizza's" value="Cheese"> Cheesyy<br>
+					<input class="Pizza's" type="checkbox" name="Pizza's" value="Chicken"> Chicken 'n Spinach<br>
+				</div>
+				<div id="cart">
+					<div id="showText"></div>
+					<div id="totalPrice"></div>
+				</div>
+			</form>
+		</div>
+		<input id="btnOrder" type="button" onclick="getReceipt()" 
+				value="Place Order">
+		<script src="pizza_drill.js"></script>
+	</body>
+</html>
